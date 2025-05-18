@@ -13,7 +13,7 @@ spec:
       values: |
         replicaCount: 1
         service:
-          type: ClusterIP
+          type: NodePort
   destination:
     server: https://kubernetes.default.svc
     namespace: monitoring
