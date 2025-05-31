@@ -1,0 +1,60 @@
+Popular SRE Tools by Category
+1. Monitoring & Metrics
+
+    Prometheus — Open-source metrics monitoring and alerting system.
+
+    Grafana — Visualization dashboard for metrics from Prometheus, Loki, etc.
+
+    Datadog — SaaS monitoring platform (metrics, logs, traces).
+
+    New Relic — Full-stack observability & monitoring.
+
+    Zabbix — Enterprise monitoring tool.
+
+2. Logging & Tracing
+
+    Loki — Log aggregation system optimized for Prometheus metrics.
+
+    ELK Stack (Elasticsearch, Logstash, Kibana) — Popular log management.
+
+    Fluentd / Fluent Bit — Log collection and forwarding.
+
+    Jaeger — Distributed tracing for monitoring latency and errors.
+
+    OpenTelemetry — Open standard for collecting telemetry data.
+
+3. Incident Management & Alerting
+
+    PagerDuty — Incident response automation and alerting.
+
+    Opsgenie — On-call scheduling and alerting.
+
+    VictorOps (Splunk On-Call) — Incident management platform.
+
+    Alertmanager — Component of Prometheus for alert routing and notification.
+
+4. Infrastructure as Code / Automation
+
+    Terraform — Infrastructure provisioning and management.
+
+    Ansible — Configuration management and automation.
+
+    Helm — Kubernetes package manager for deploying apps.
+
+    Argo CD — GitOps continuous delivery tool for Kubernetes.
+
+    Jenkins / GitHub Actions — CI/CD pipelines.
+
+5. Container Orchestration
+
+    Kubernetes — Container orchestration and management.
+
+    Argo Rollouts — Progressive delivery (canary, blue-green) on Kubernetes.
+
+6. Reliability & Chaos Engineering
+
+    Chaos Mesh — Kubernetes-native chaos testing.
+
+    Gremlin — Chaos engineering platform.
+
+    LitmusChaos — Kubernetes chaos engineering framework.
