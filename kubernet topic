@@ -1,0 +1,171 @@
+BEGINNER LEVEL (Core Concepts)
+📌 Kubernetes Basics
+
+    What is Kubernetes?
+
+    Architecture: Master vs. Worker nodes
+
+    kube-apiserver, kubelet, kube-proxy, etcd, controller-manager, scheduler
+
+📌 kubectl Commands
+
+    get, create, delete, describe, logs, exec, apply, patch, top
+
+    Contexts and configurations
+
+📌 Core Objects
+
+    Pods
+
+    ReplicaSets
+
+    Deployments
+
+    Namespaces
+
+    Labels and Selectors
+
+    Annotations
+
+🟡 INTERMEDIATE LEVEL (Configuration & Networking)
+📌 Services
+
+    ClusterIP
+
+    NodePort
+
+    LoadBalancer
+
+    Headless Services
+
+📌 Networking
+
+    Pod-to-pod communication
+
+    CNI Plugins (Calico, Flannel)
+
+    DNS in Kubernetes
+
+    Network Policies
+
+📌 Volumes and Storage
+
+    EmptyDir, HostPath
+
+    PersistentVolume (PV) and PersistentVolumeClaim (PVC)
+
+    StorageClass and dynamic provisioning
+
+📌 Configurations
+
+    ConfigMaps
+
+    Secrets
+
+    Environment Variables and Volume Mounts
+
+🟠 ADVANCED LEVEL (Workload Management)
+📌 Stateful Applications
+
+    StatefulSets
+
+    DaemonSets
+
+    Jobs and CronJobs
+
+📌 Rollouts & Scaling
+
+    kubectl rollout, scale, autoscale
+
+    Horizontal Pod Autoscaler (HPA)
+
+    Vertical Pod Autoscaler (VPA)
+
+📌 Ingress and Ingress Controllers
+
+    Ingress Resource
+
+    Ingress Controller (NGINX, Traefik)
+
+    TLS termination
+
+📌 Helm
+
+    Helm charts, values.yaml
+
+    Installing and managing applications
+
+🔵 EXPERT LEVEL (Security, Monitoring, CI/CD)
+📌 Security
+
+    RBAC (Role-Based Access Control)
+
+    Service Accounts
+
+    Network Policies
+
+    Pod Security Policies (deprecated, replaced by PSA)
+
+    Admission Controllers
+
+📌 Monitoring & Logging
+
+    Prometheus + Grafana
+
+    Fluentd, ELK Stack
+
+    Metrics Server
+
+📌 CI/CD with Kubernetes
+
+    GitOps with ArgoCD / Flux
+
+    Jenkins + Kubernetes plugin
+
+    Tekton
+
+📌 Advanced Networking
+
+    Multi-cluster networking
+
+    Service Mesh (Istio, Linkerd)
+
+⚙️ OPERATIONS & TROUBLESHOOTING
+📌 Cluster Maintenance
+
+    Backups (etcd)
+
+    Upgrades
+
+    Node management and draining
+
+    Taints and Tolerations
+
+    Affinity/Anti-affinity
+
+📌 Troubleshooting
+
+    Pod not running / CrashLoopBackOff
+
+    Events, logs, describe
+
+    DNS failures, scheduling failures
+
+🌐 CLOUD PROVIDERS & TOOLS
+📌 Kubernetes on Cloud
+
+    GKE, EKS, AKS
+
+    Kops, kubeadm
+
+    KIND / Minikube for local setup
+
+📌 Tools & Extensions
+
+    K9s
+
+    Lens
+
+    Kustomize
+
+    Kubespy, Stern
